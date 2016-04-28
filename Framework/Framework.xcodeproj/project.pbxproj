@@ -7,18 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		86E2F0111B4EE700002D66BB /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 86E2F00F1B4EE700002D66BB /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		86E2F0121B4EE700002D66BB /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 86E2F00F1B4EE700002D66BB /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		86E2F0131B4EE700002D66BB /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E2F0101B4EE700002D66BB /* Reachability.m */; };
-		86E2F0141B4EE700002D66BB /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E2F0101B4EE700002D66BB /* Reachability.m */; };
+		AE3501611CD2C1EB00EF0471 /* SHLReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = AE35015F1CD2C1EB00EF0471 /* SHLReachability.m */; };
+		AE3501621CD2C1EB00EF0471 /* SHLReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = AE3501601CD2C1EB00EF0471 /* SHLReachability.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		86E2EFD41B4EE3C9002D66BB /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		86E2EFD71B4EE3C9002D66BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86E2EFF21B4EE3DE002D66BB /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		86E2F00F1B4EE700002D66BB /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = ../Reachability.h; sourceTree = "<group>"; };
-		86E2F0101B4EE700002D66BB /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = ../Reachability.m; sourceTree = "<group>"; };
+		AE35015F1CD2C1EB00EF0471 /* SHLReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHLReachability.m; path = ../SHLReachability.m; sourceTree = "<group>"; };
+		AE3501601CD2C1EB00EF0471 /* SHLReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHLReachability.h; path = ../SHLReachability.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +57,8 @@
 		86E2F00E1B4EE6D5002D66BB /* Framework */ = {
 			isa = PBXGroup;
 			children = (
-				86E2F00F1B4EE700002D66BB /* Reachability.h */,
-				86E2F0101B4EE700002D66BB /* Reachability.m */,
+				AE35015F1CD2C1EB00EF0471 /* SHLReachability.m */,
+				AE3501601CD2C1EB00EF0471 /* SHLReachability.h */,
 				86E2EFD71B4EE3C9002D66BB /* Info.plist */,
 			);
 			name = Framework;
@@ -73,7 +71,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86E2F0111B4EE700002D66BB /* Reachability.h in Headers */,
+				AE3501621CD2C1EB00EF0471 /* SHLReachability.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,7 +79,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86E2F0121B4EE700002D66BB /* Reachability.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,7 +177,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86E2F0131B4EE700002D66BB /* Reachability.m in Sources */,
+				AE3501611CD2C1EB00EF0471 /* SHLReachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,7 +185,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86E2F0141B4EE700002D66BB /* Reachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
